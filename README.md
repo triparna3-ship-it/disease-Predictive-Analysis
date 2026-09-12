@@ -113,8 +113,7 @@ The models are compared to identify which algorithm performs best on the selecte
 
 ## 🧠 Feature Importance
 
-Random Forest feature importance is used to identify which features contribute most to the model's predictions.
-This helps provide better understanding of the relationships between healthcare variables and model predictions.
+Random Forest feature importance is used to identify which features contribute most to the model's predictions.This helps provide better understanding of the relationships between healthcare variables and model predictions.
 
 ---
 
@@ -122,7 +121,6 @@ This helps provide better understanding of the relationships between healthcare 
 
 Healthcare data is sensitive and must be handled responsibly.
 This project follows these principles:
-* Do not expose personally identifiable information.
 * Do not publish real patient names or personal records.
 * Use anonymized or publicly available datasets.
 * Do not use model predictions as medical diagnoses.
