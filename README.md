@@ -2,11 +2,7 @@
 
 ## 📌 Project Overview
 
-Healthcare Predictive Analytics is a machine learning project designed to analyze healthcare records and predict a patient's medical condition using classification algorithms.
-
-The project performs data cleaning, exploratory data analysis, bivariate analysis, data normalization, machine learning classification, model evaluation, and feature importance analysis.
-
-
+This Healthcare Predictive Analytics project performs data cleaning, exploratory data analysis, bivariate analysis, data normalization, machine learning classification, model evaluation, and feature importance analysis.
 
 ---
 
@@ -27,30 +23,13 @@ The project performs data cleaning, exploratory data analysis, bivariate analysi
 ## 📊 Dataset
 
 The project can use a healthcare dataset obtained from sources such as Kaggle or UCI.
-This healthcare attributes include:  
- 'Name',
- 'Age',
- 'Gender',
- 'Blood Type',
- 'Medical Condition',
- 'Date of Admission',
- 'Doctor',
- 'Hospital',
- 'Insurance Provider',
- 'Billing Amount',
- 'Room Number',
- 'Admission Type',
- 'Discharge Date',
- 'Medication',
- 'Test Results'
+
 ---
 
 ## 🔎 Bivariate Analysis
 
 Bivariate analysis studies the relationship between two variables.
-
 Different visualization techniques are used, including:
-
 * Scatter plots
 * Box plots
 * Count plots
@@ -61,13 +40,10 @@ Different visualization techniques are used, including:
 ## 🤖 Machine Learning Models
 
 The project uses classification algorithms including:
-
 ### 1. Logistic Regression
 Used as a baseline classification model.
-
 ### 2. Random Forest
 An ensemble learning algorithm that combines multiple decision trees.
-
 ### 3. Gradient Boosting
 An ensemble technique that builds models sequentially to improve prediction performance.
 
@@ -131,7 +107,6 @@ The models are evaluated using:
 * Recall
 * F1-score
 * Confusion Matrix
-
 The models are compared to identify which algorithm performs best on the selected dataset.
 
 ---
@@ -178,41 +153,7 @@ Healthcare-Predictive-Analytics/
     
 ```
 
----
-
-## ▶️ How to Run
-
-### Step 1: Clone the repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-### Step 2: Open the project folder
-
-```bash
-cd Healthcare-Predictive-Analytics
-```
-
-### Step 3: Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4: Start Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-### Step 5: Open
-
-```text
-Healthcare_Predictive_Analytics.ipynb
-```
-
-### Step 6: Run all cells
+###  Run all cells
 
 The notebook will perform:
 ```text
@@ -238,17 +179,13 @@ Feature Importance
 ## 📌 Expected Output
 
 The project produces:
-
 * Clean healthcare dataset
 * Statistical summaries
-* Patient age distribution
-* Medical condition distribution
+* Patient age & Medical condition distribution
 * Bivariate visualizations
-* Correlation heatmap
 * Model accuracy comparison
 * Classification report
 * Confusion matrix
-* Feature importance chart
 * Saved machine learning model
 
 ---
