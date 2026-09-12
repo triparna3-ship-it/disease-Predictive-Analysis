@@ -6,7 +6,7 @@ Healthcare Predictive Analytics is a machine learning project designed to analyz
 
 The project performs data cleaning, exploratory data analysis, bivariate analysis, data normalization, machine learning classification, model evaluation, and feature importance analysis.
 
-> **Disclaimer:** This project is developed for educational and research purposes only. It is not intended to replace professional medical diagnosis or clinical decision-making.
+
 
 ---
 
@@ -19,8 +19,6 @@ The project performs data cleaning, exploratory data analysis, bivariate analysi
 * Study relationships between healthcare variables.
 * Normalize numerical features.
 * Build classification models.
-* Compare different machine learning algorithms.
-* Analyze feature importance.
 * Evaluate model performance.
 * Follow ethical data handling and patient privacy principles.
 
@@ -29,36 +27,27 @@ The project performs data cleaning, exploratory data analysis, bivariate analysi
 ## 📊 Dataset
 
 The project can use a healthcare dataset obtained from sources such as Kaggle or UCI.
-
-Typical healthcare attributes may include:
-
-* Age
-* Gender
-* Blood Type
-* Medical Condition
-* Date of Admission
-* Billing Amount
-* Admission Type
-* Medication
-* Test Results
-* Discharge Date
-
-The exact columns depend on the selected dataset.
-
+This healthcare attributes include:  
+ 'Name',
+ 'Age',
+ 'Gender',
+ 'Blood Type',
+ 'Medical Condition',
+ 'Date of Admission',
+ 'Doctor',
+ 'Hospital',
+ 'Insurance Provider',
+ 'Billing Amount',
+ 'Room Number',
+ 'Admission Type',
+ 'Discharge Date',
+ 'Medication',
+ 'Test Results'
 ---
 
 ## 🔎 Bivariate Analysis
 
 Bivariate analysis studies the relationship between two variables.
-
-Examples used in this project include:
-
-* Age vs Billing Amount
-* Age vs Medical Condition
-* Gender vs Medical Condition
-* Blood Type vs Medical Condition
-* Test Results vs Medical Condition
-* Age vs Hospital Stay
 
 Different visualization techniques are used, including:
 
@@ -74,15 +63,12 @@ Different visualization techniques are used, including:
 The project uses classification algorithms including:
 
 ### 1. Logistic Regression
-
 Used as a baseline classification model.
 
 ### 2. Random Forest
-
 An ensemble learning algorithm that combines multiple decision trees.
 
 ### 3. Gradient Boosting
-
 An ensemble technique that builds models sequentially to improve prediction performance.
 
 ---
@@ -140,7 +126,6 @@ Medical Condition Prediction
 ## 📈 Evaluation Metrics
 
 The models are evaluated using:
-
 * Accuracy
 * Precision
 * Recall
@@ -154,7 +139,6 @@ The models are compared to identify which algorithm performs best on the selecte
 ## 🧠 Feature Importance
 
 Random Forest feature importance is used to identify which features contribute most to the model's predictions.
-
 This helps provide better understanding of the relationships between healthcare variables and model predictions.
 
 ---
@@ -162,9 +146,7 @@ This helps provide better understanding of the relationships between healthcare 
 ## 🔐 Ethical Data Handling
 
 Healthcare data is sensitive and must be handled responsibly.
-
 This project follows these principles:
-
 * Do not expose personally identifiable information.
 * Do not publish real patient names or personal records.
 * Use anonymized or publicly available datasets.
@@ -183,7 +165,6 @@ Healthcare-Predictive-Analytics/
 ├── healthcare_dataset.csv
 ├── Healthcare_Predictive_Analytics.ipynb
 ├── README.md
-├── requirements.txt
 │
 ├── images/
 │   ├── age_billing.png
@@ -192,9 +173,9 @@ Healthcare-Predictive-Analytics/
 │   └── confusion_matrix.png
 │
 └── models/
-    ├── healthcare_model.pkl
-    ├── scaler.pkl
-    └── label_encoder.pkl
+|   ├── healthcare_model.pkl
+├── notebooks/
+    
 ```
 
 ---
@@ -234,7 +215,6 @@ Healthcare_Predictive_Analytics.ipynb
 ### Step 6: Run all cells
 
 The notebook will perform:
-
 ```text
 Data Loading
 ↓
@@ -273,31 +253,13 @@ The project produces:
 
 ---
 
-## 🚀 Future Scope
-
-Possible improvements include:
-
-* Diabetes-specific prediction
-* Heart disease risk prediction
-* Streamlit web application
-* Patient risk dashboard
-* Explainable AI
-* Additional classification algorithms
-* Hyperparameter tuning
-* Cross-validation
-* Model deployment through an API
-* Multilingual healthcare interface
-
----
-
 ## 👩‍💻 Author
 
-**Healthcare Predictive Analytics – Data Analysis & Machine Learning Project**
-
+**Healthcare Predictive Analytics Project**
 Developed using Python, Jupyter Notebook, Pandas, Matplotlib, Seaborn and Scikit-learn.
 
 ---
 
 ## ⚠️ Disclaimer
 
-This application is an educational machine learning project and should not be used for actual medical diagnosis, treatment, or clinical decision-making.
+This application is an educational data analytics project and should not be used for actual medical diagnosis, treatment, or clinical decision-making.
