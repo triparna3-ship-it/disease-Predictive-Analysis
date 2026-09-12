@@ -190,13 +190,6 @@ The project produces:
 
 ---
 
-## 👩‍💻 Author
-
-**Healthcare Predictive Analytics Project**
-Developed using Python, Jupyter Notebook, Pandas, Matplotlib, Seaborn and Scikit-learn.
-
----
-
 ## ⚠️ Disclaimer
 
 This application is an educational data analytics project and should not be used for actual medical diagnosis, treatment, or clinical decision-making.
